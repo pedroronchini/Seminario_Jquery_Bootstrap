@@ -1,0 +1,26 @@
+body {
+  margin: 50px;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2721db;
+  color: #FFF;
+  font-size: larger;
+}
+a{
+  color: #FFF;
+  
+}
+
+a:hover {
+  color: #000;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.titulo {
+  font-size: xx-large;
+  text-align: center;
+  color: #010d52;
+}
