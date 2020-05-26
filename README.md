@@ -1,2 +1,2 @@
-# git_teste
+# Seminario_Jquery_Bootstrap
 Teste com o gitKraken
