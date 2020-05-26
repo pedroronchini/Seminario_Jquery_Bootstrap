@@ -5,6 +5,10 @@ body {
   background-color: #2721db;
   color: #FFF;
   font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 a{
   color: #000;
@@ -20,6 +24,10 @@ a:link{
 }
 
 .titulo {
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
   font-size: xx-large;
   text-align: center;
   color: #010d52;
@@ -52,4 +60,45 @@ a:link{
   border: 2px solid #FFF;
   background-color: #2e3759;
   color: #000;
+}
+.formulario {
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #2e3759;
+  background-color: #010d52;
+}
+
+.editar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  color: #2721db;
+  background-color: #000;
+  border: 2px solid #606578;
+  font-size: 18;
+}
+
+input#idade {
+  height: 20px;
+  width: 20px;
+}
+
+input#nome {
+  height: 20px;
+}
+
+input {
+border: 2px solid #606578;
 }
