@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 25px;
+  margin: 0;
+  background-color: #182740;
+  color: #FFF;
+}
+input {
+  padding: 10px;
+  border: 3px solid #51ff00;
+  border-radius: 2px;
+}
+
+button {
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  color: #FFF;
+  background-color: #041b5c;
+  border: 2px solid #51ff00;
+  border-radius: 1px;
+}
+
+.erro {
+  border: 5px solid #041b5c;
+  border-radius: 6px #51ff00;
+  background-color: #041b5c;
+}
+
+.envia {
+  margin: 10px;
+  color: #FFF;
+}
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  border: 2px groove #51ff00;
+  border-radius: 5px;
+  height: 100%;
+  width: 20%;
+}
+
+#field_nome {
+  padding: 20px;
+  margin: 2px;
+}
+
+#field_idade {
+  padding: 20px;
+  margin: 2px;
+}
+
+#field_altura {
+  padding: 20px;
+  margin: 2px;
+}
+
+#field_email {
+  padding: 20px;
+  margin: 2px;
+}
+
+
